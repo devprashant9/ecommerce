@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
     cors({
-        origin: ["https://ecommerce-khaki-one-74.vercel.app", "http://localhost:5173"],
+        origin: ["https://ecommerce-dtvaxixnx-prashant-kumar-jhas-projects-6c01f5f0.vercel.app/", "http://localhost:5173"],
     })
 );
   

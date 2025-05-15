@@ -23,12 +23,8 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(
-    cors({
-        origin: ["https://ecommerce-dtvaxixnx-prashant-kumar-jhas-projects-6c01f5f0.vercel.app", "http://localhost:5173"],
-    })
-);
-  
+app.use(cors({ origin: true }));
+
 
 // app.use("/", (req, res, next) => {
 //   res.send("API is running...");
